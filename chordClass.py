@@ -28,11 +28,11 @@ class Chord(object):
             retArray.append(tmp[i])
 
 if __name__ == "__main__": 
-    bVal = True
+    
     count = 0
-    a = raw_input("how many chord do you have?")
+    a = int(raw_input("how many chord do you have?"))
     print "a = ",a
-    if count < a:
+    while count < a:
         print "a = ", a
         print "{} < {}  is ".format(count,a), count < a
         raw_input("press enter to continue")
